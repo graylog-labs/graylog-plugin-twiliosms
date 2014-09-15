@@ -1,7 +1,7 @@
-graylog2-plugin-transport-twiliosms
-===================================
+graylog2-plugin-alarmcallback-twiliosms
+=======================================
 
-Transport that sends alarms via the Twilio SMS API
+AlarmCallback plugin that sends alarms via the Twilio SMS API
 
 Documentation: http://support.torch.sh/help/kb/plugins/twilio-sms-transport
 
