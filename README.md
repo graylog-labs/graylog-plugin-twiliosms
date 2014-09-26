@@ -1,7 +1,6 @@
 # Graylog2 Twilio SMS alarm callback
-[![Build Status](https://travis-ci.org/Graylog2/graylog2-plugin-transport-twiliosms.svg)](https://travis-ci.org/Graylog2/graylog2-plugin-transport-twiliosms)
+[![Build Status](https://travis-ci.org/Graylog2/graylog2-alarmcallback-twiliosms.svg)](https://travis-ci.org/Graylog2/graylog2-alarmcallback-twiliosms)
 
-AlarmCallback plugin that sends alarms via the 
 An alarm callback plugin for integrating the [Twilio SMS API](https://www.twilio.com/sms) into [Graylog2](http://www.graylog2.org/).
 
 
