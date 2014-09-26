@@ -142,7 +142,7 @@ public class TwilioSmsAlarmCallback implements AlarmCallback {
 
         final Sms sms = smsFactory.create(smsParams);
 
-        LOG.debug("Sent SMS on {} with status {}: {}", sms.getDateSent(), sms.getStatus(), sms.getBody());
+        LOG.debug("Sent SMS with status {}: {}", sms.getStatus(), sms.getBody());
     }
 
     private String buildMessage(final AlertCondition.CheckResult result) {
