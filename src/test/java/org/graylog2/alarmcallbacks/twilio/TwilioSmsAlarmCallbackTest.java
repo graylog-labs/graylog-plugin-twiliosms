@@ -117,7 +117,7 @@ public class TwilioSmsAlarmCallbackTest {
         final Map<String, String> expectedParameters = ImmutableMap.of(
                 "To", "TEST_to_number",
                 "From", "TEST_from_number",
-                "Body", "[Graylog2] Test"
+                "Body", "[Graylog] Test"
         );
         verify(smsFactory).create(expectedParameters);
     }
@@ -133,9 +133,9 @@ public class TwilioSmsAlarmCallbackTest {
         transport.initialize(VALID_CONFIGURATION);
         transport.call(mockStream, mockCheckResult, twilioClient);
 
-        final String expectedBody = "[Graylog2] "
+        final String expectedBody = "[Graylog] "
                 + "01234567890123456789012345678901234567890123456789012345678901234567890123456789"
-                + "0123456789012345678901234567890123456789012345678";
+                + "01234567890123456789012345678901234567890123456789";
 
         final Map<String, String> expectedParameters = ImmutableMap.of(
                 "To", "TEST_to_number",

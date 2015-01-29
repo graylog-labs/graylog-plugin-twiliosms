@@ -146,7 +146,7 @@ public class TwilioSmsAlarmCallback implements AlarmCallback {
     }
 
     private String buildMessage(final AlertCondition.CheckResult result) {
-        final String msg = "[Graylog2] " + result.getResultDescription();
+        final String msg = "[Graylog] " + result.getResultDescription();
 
         return msg.substring(0, min(msg.length(), MAX_MSG_LENGTH));
     }
