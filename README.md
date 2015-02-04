@@ -1,7 +1,7 @@
 # Graylog Twilio SMS alarm callback
 [![Build Status](https://travis-ci.org/Graylog2/graylog2-alarmcallback-twiliosms.svg)](https://travis-ci.org/Graylog2/graylog2-alarmcallback-twiliosms)
 
-An alarm callback plugin for integrating the [Twilio SMS API](https://www.twilio.com/sms) into [Graylog](https://www.graylog2.org/).
+An alarm callback plugin for integrating the [Twilio SMS API](https://www.twilio.com/sms) into [Graylog](https://www.graylog.org/).
 
 
 ## Build
