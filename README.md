@@ -1,7 +1,9 @@
 Twilio SMS Plugin for Graylog
 =============================
 
-[![Build Status](https://travis-ci.org/Graylog2/graylog-plugin-twiliosms.svg)](https://travis-ci.org/Graylog2/graylog-plugin-twiliosms)
+[![Github Downloads](https://img.shields.io/github/downloads/graylog-labs/graylog-plugin-twiliosms/total.svg)](https://github.com/graylog-labs/graylog-plugin-twiliosms/releases)
+[![GitHub Release](https://img.shields.io/github/release/graylog-labs/graylog-plugin-twiliosms.svg)](https://github.com/graylog-labs/graylog-plugin-twiliosms/releases)
+[![Build Status](https://travis-ci.org/graylog-labs/graylog-plugin-twiliosms.svg)](https://travis-ci.org/graylog-labs/graylog-plugin-twiliosms)
 
 An alarm callback plugin for integrating the [Twilio SMS API](https://www.twilio.com/sms) into [Graylog](https://www.graylog.org/).
 
@@ -9,7 +11,7 @@ An alarm callback plugin for integrating the [Twilio SMS API](https://www.twilio
 
 ## Installation
 
-[Download the plugin](https://github.com/Graylog2/graylog-plugin-twiliosms/releases)
+[Download the plugin](https://github.com/graylog-labs/graylog-plugin-twiliosms/releases)
 and place the `.jar` file in your Graylog plugin directory. The plugin directory
 is the `plugins/` folder relative from your `graylog-server` directory by default
 and can be configured in your `graylog.conf` file.
